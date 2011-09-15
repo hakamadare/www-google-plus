@@ -1,21 +1,14 @@
 package WWW::Google::Plus;
+use Moose;
 
-use warnings;
-use strict;
-use Carp;
+binmode STDOUT, ":utf8";
 
 use version; our $VERSION = qv('v0.0.1');
-
-# Other recommended modules (uncomment to use):
-#  use IO::Prompt;
-#  use Perl6::Export;
-#  use Perl6::Slurp;
-#  use Perl6::Say;
-
 
 # Module implementation here
 
 
+no Moose;
 1; # Magic true value required at end of module
 __END__
 
